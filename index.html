@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables and Lists</title>
+</head>
+<style>
+    th, td{
+        border: 1px solid black
+    }
+    table{
+        border: 1px solid black;
+        width: 100%; 
+        margin-bottom: 50px;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+</style>
+<body>
+    <table cellpadding="5px" cellspacing="5px">
+        <thead>
+            <h1 id="school-name">ST. BENEDICT HIGH SCHOOL </h1>
+            <h2 id="class">CLASS: SS2</h2>
+            <h2 id="teahcer">TEACHER: MR. ADE</h2>
+        </thead>
+        <tbody>
+            <tr class = 'column-headings'>
+                <th id="serial-number" rowspan="2">S/N</th>
+                <th id="students" rowspan="2">STUDENTS</th>
+                <th id="subjects" colspan="5">SUBJECTS</th>
+                <th id="total-scores" colspan = "2" rowspan="2">TOTAL SCORES</th>
+            </tr>
+            <tr>
+                <th id="maths">MATHEMATICS</th>
+                <th id="eng">ENGLISH</th>
+                <th id="physics">PHYSICS</th>
+                <th id="chem">CHEMISTRY</th>
+                <th id="biology">BIOLOGY</th>
+            </tr>
+            <tr class="AdeKunle">
+                <td>1</td>
+                <td>AdeKunle</td>
+                <td id="maths-score">72</td>
+                <td id = "eng-score">43</td>
+                <td id="phy-score">78</td>
+                <td id="chem-score">73</td>
+                <td id="bio-score">37</td>
+                <td>303</td>
+            </tr>
+            <tr class="John">
+                <td>2</td>
+                <td>John</td>
+                <td id="maths-score" >42</td>
+                <td id = "eng-score">64</td>
+                <td id="phy-score">70</td>
+                <td id="chem-score">55</td>
+                <td id="bio-score">58</td>
+                <td>289</td>
+            </tr>
+            <tr class="Peter">
+                <td>3</td>
+                <td>Peter</td>
+                <td id="maths-score">62</td>
+                <td id = "eng-score">40</td>
+                <td id="phy-score">73</td>
+                <td id="chem-score">75</td>
+                <td id="bio-score">99</td>
+                <td>349</td>
+            </tr>
+            <tr class="Rukayat">
+                <td>4</td>
+                <td>Rukayat</td>
+                <td id="maths-score">77</td>
+                <td id = "eng-score">75</td>
+                <td id="phy-score">78</td>
+                <td id="chem-score">75</td>
+                <td id="bio-score">82</td>
+                <td>387</td>
+            </tr>
+            <tr class="Paul">
+                <td>5</td>
+                <td>Paul</td>
+                <td id="maths-score">72</td>
+                <td id = "eng-score">40</td>
+                <td id="phy-score">72</td>
+                <td id="chem-score">70</td>
+                <td id="bio-score">97</td>
+                <td>351</td>
+            </tr>
+            <tr class="Victor">
+                <td>6</td>
+                <td>Victor</td>
+                <td id="maths-score">76</td>
+                <td id = "eng-score">64</td>
+                <td id="phy-score">48</td>
+                <td id="chem-score">99</td>
+                <td id="bio-score">37</td>
+                <td>324</td>
+            </tr>
+            <tr class="John">
+                <td>7</td>
+                <td>John</td>
+                <td id="maths-score">62</td>
+                <td id = "eng-score">54</td>
+                <td id="phy-score">78</td>
+                <td id="chem-score">75</td>
+                <td id="bio-score">64</td>
+                <td>333</td>
+            </tr>
+            <tr class="Doe">
+                <td>8</td>
+                <td>Doe</td>
+                <td id="maths-score">52</td>
+                <td id = "eng-score">84</td>
+                <td id="phy-score">48</td>
+                <td id="chem-score">85</td>
+                <td id="bio-score">27</td>
+                <td>296</td>
+            </tr>
+            <tr class="Stephen">
+                <td>8</td>
+                <td>Stephen</td>
+                <td id="maths-score">92</td>
+                <td id = "eng-score">44</td>
+                <td id="phy-score">78</td>
+                <td id="chem-score">65</td>
+                <td id="bio-score">61</td>
+                <td>340</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
